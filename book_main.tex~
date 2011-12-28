@@ -1,0 +1,211 @@
+\documentclass[11pt,twoside,final]{memoir}
+
+\usepackage{mylayout}
+
+%% Details of the book
+%% ===================
+
+\title{Mindfulness: The Path to the Deathless}
+\subtitle{The meditation teaching of Ajahn Sumedho}
+\author{Ajahn Sumedho}
+\date{}
+\editionInfo{\textit{First edition}, 10,000 copies, printed in Thailand -- 2012}
+% Title comment: ...
+% Publisher name: ...
+% Printer name: ...
+\ISBN{123-4-5678901-2-3 FIXME!}
+% Copyright text: ...
+
+%% Load further packages
+%% =====================
+
+% \usepackage{lipsum}
+
+%% Hyphenation exceptions and corrections
+%% ======================================
+
+% \hyphenation{}
+
+\begin{document}
+
+\emptysheet
+
+%% Frontmatter
+%% ===========
+
+\frontmatter*
+
+%% About
+%% -----
+%% Short review or summary of the book, or comments by others.
+%% Brief bigraphy of the author, translator, editor, and their connection to the text.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/about.tex}
+
+%% Title page
+%% ----------
+%% subtitle, editor, translator, preface by, introduction by, publisher
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/titlepage.tex}
+
+%% Copyright page
+%% --------------
+%% publisher info, edition info, ISBN, etc.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/copyright.tex}
+
+%% Acknowledgements
+%% ----------------
+%% * acknowledgement of sponsors
+%% * summary of where this material comes from
+%% * translator(s) and original sources
+%% * acknowledgement permissions to reprint sections that appeared somewherer else
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/acknowledgements.tex}
+
+%% Dedication
+%% ----------
+
+% \cleartorecto
+% \thispagestyle{empty}
+% {\raggedleft\vspace*{5em}\par
+% To all who write summaries of \emph{imaginary} books
+% \par}
+
+%% Table of Contents
+%% -----------------
+
+\cleartorecto
+\tableofcontents*
+
+%% Preface
+%% Introduction
+%% ----------------
+
+% TODO: lettrine!
+
+\chapterstyle{frontmatter}
+
+% \chapter{Preface}
+% \input{./src-tex/preface.tex}
+
+\chapter{Introduction}
+\input{./src-tex/introduction.tex}
+
+%% Further Reading
+%% Tranlator's Note
+%% Editor's Note
+%% ----------------
+
+% \chapter{Editor's Note}
+% \input{./src-tex/editors-note.tex}
+
+%% Verse or quote
+%% --------------
+
+\cleartorecto
+\thispagestyle{empty}
+{\raggedleft\vspace*{5em}
+
+\begin{minipage}{0.9\linewidth}
+
+\begin{quote}
+``quote quote\\
+quote quote\\
+quote quote.''
+
+{\small\textit{Some Man} -- 1942}
+\end{quote}
+
+\end{minipage}
+
+}
+
+%% Main matter
+%% ===========
+
+\mainmatter*
+
+\book{\thetitle}
+
+\setcounter{chapter}{0}
+
+\chapterstyle{mainmatter}
+
+\chapter{A Note Before You Begin}
+\input{./src-tex/a-note-before-you-begin.tex}
+
+\part{Investigation}
+
+\chapter{What is Meditation?}
+\input{./src-tex/what-is-meditation.tex}
+
+\part{Instruction}
+
+\chapter{Watching the Breath}
+\input{./src-tex/watching-the-breath.tex}
+
+\chapter{The Mantra `Buddho'}
+\input{./src-tex/mantra-buddho.tex}
+
+\chapter{Effort and Relaxation}
+\input{./src-tex/effort-and-relaxation.tex}
+
+\chapter{Walking Mindfully}
+\input{./src-tex/walking-mindfully.tex}
+
+\chapter{Kindness}
+\input{./src-tex/kindness.tex}
+
+\chapter{Mindfulness of the Ordinary}
+\input{./src-tex/mindfulness-of-the-ordinary.tex}
+
+\chapter{Listening to Thought}
+\input{./src-tex/listening-to-thought.tex}
+
+\chapter{The Hindrances and Their Cessation}
+\input{./src-tex/hindrances.tex}
+
+\chapter{Emptiness and Form}
+\input{./src-tex/emptiness-and-form.tex}
+
+\chapter{Inner Vigilange}
+\input{./src-tex/inner-vigilance.tex}
+
+\part{Reflection}
+
+\chapter{The Need for Wisdom in the World}
+\input{./src-tex/need-for-wisdom.tex}
+
+%% Backmatter
+%% ==========
+%% Appendices, Glossary, Notes, Index...
+
+\backmatter
+
+\bookmarksetup{startatroot}
+
+\chapterstyle{backmatter}
+
+\chapter{Glossary}
+
+\chapter{Index}
+
+%% Copyright details
+%% -----------------
+
+\cleartorecto
+\thispagestyle{plain}
+\input{./src-tex/copyright-details.tex}
+
+\emptysheet
+
+\end{document}
