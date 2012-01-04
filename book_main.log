@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2011.10.27)  28 DEC 2011 16:14
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2011.10.27)  4 JAN 2012 13:16
  restricted \write18 enabled.
 **book_main.tex
 (./book_main.tex
@@ -509,6 +509,262 @@ Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
 (/usr/local/texlive/2011/texmf-dist/tex/latex/ccicons/ccicons.sty
 Package: ccicons 2011/09/18 v1.3 LaTeX support for Creative Commons icons
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks29
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box29
+(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks32
+))
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count141
+\c@pgf@countb=\count142
+\c@pgf@countc=\count143
+\c@pgf@countd=\count144
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count145
+\pgfsyssoftpath@bigbuffer@items=\count146
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen160
+\pgfmath@count=\count147
+\pgfmath@box=\box30
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count148
+))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen161
+\pgf@picmaxx=\dimen162
+\pgf@picminy=\dimen163
+\pgf@picmaxy=\dimen164
+\pgf@pathminx=\dimen165
+\pgf@pathmaxx=\dimen166
+\pgf@pathminy=\dimen167
+\pgf@pathmaxy=\dimen168
+\pgf@xx=\dimen169
+\pgf@xy=\dimen170
+\pgf@yx=\dimen171
+\pgf@yy=\dimen172
+\pgf@zx=\dimen173
+\pgf@zy=\dimen174
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen175
+\pgf@path@lasty=\dimen176
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen177
+\pgf@shorten@start@additional=\dimen178
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box31
+\pgf@hbox=\box32
+\pgf@layerbox@main=\box33
+\pgf@picture@serial@count=\count149
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen179
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen180
+\pgf@pt@y=\dimen181
+\pgf@pt@temp=\dimen182
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen183
+\pgf@sys@shading@range@num=\count150
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box34
+))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box35
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen184
+\pgf@nodesepend=\dimen185
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen186
+\pgffor@skip=\dimen187
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count151
+\pgfplotmarksize=\dimen188
+)
+\tikz@lastx=\dimen189
+\tikz@lasty=\dimen190
+\tikz@lastxsaved=\dimen191
+\tikz@lastysaved=\dimen192
+\tikzleveldistance=\dimen193
+\tikzsiblingdistance=\dimen194
+\tikz@figbox=\box36
+\tikz@tempbox=\box37
+\tikztreelevel=\count152
+\tikznumberofchildren=\count153
+\tikznumberofcurrentchild=\count154
+\tikz@fig@count=\count155
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count156
+\pgfmatrixcurrentcolumn=\count157
+\pgf@matrix@numberofcolumns=\count158
+)
+\tikz@expandcount=\count159
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
 (/usr/local/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
 
@@ -943,8 +1199,8 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/rakuen/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
 emp-lmsans10-regular.lua))
 \tipaTiiicode=\count365
-\tipasavetokens=\toks29
-\tipachecktokens=\toks30
+\tipasavetokens=\toks38
+\tipachecktokens=\toks39
 )
 .................................................
 . xparse info: "define-command"
@@ -1427,7 +1683,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutheight=\dimen321
 \Gm@layouthoffset=\dimen322
 \Gm@layoutvoffset=\dimen323
-\Gm@dimlist=\toks31
+\Gm@dimlist=\toks40
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2011/10/01 v6.82j Hypertext links for LaTeX
@@ -1529,8 +1785,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip267
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 132.
-Package hyperref Info: Option `unicode' set `true' on input line 132.
+Package hyperref Info: Option `colorlinks' set `true' on input line 137.
+Package hyperref Info: Option `unicode' set `true' on input line 137.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2011/10/01 v6.82j Hyperref: PDF Unicode definition (HO)
@@ -1549,7 +1805,7 @@ File: bkm-pdftex.def 2011/04/21 v1.21 bookmark driver for pdfTeX (HO)
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/footmisc/footmisc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
-\FN@temptoken=\toks32
+\FN@temptoken=\toks41
 \footnotemargin=\dimen327
 \c@pp@next@reset=\count395
 \c@@fnserial=\count396
@@ -1568,7 +1824,7 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
-\MT@toks=\toks33
+\MT@toks=\toks42
 \MT@count=\count397
 LaTeX Info: Redefining \lsstyle on input line 1597.
 LaTeX Info: Redefining \lslig on input line 1597.
@@ -1621,12 +1877,12 @@ LaTeX Font Info:    ... okay on input line 29.
 \scratchbox=\box293
 \nofMPsegments=\count399
 \nofMParguments=\count400
-\everyMPshowfont=\toks34
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count401
 \MPscratchDim=\dimen330
 \MPnumerator=\count402
 \makeMPintoPDFobject=\count403
-\everyMPtoPDFconversion=\toks35
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1643,6 +1899,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box294
+
+ABD: EveryShipout initializing macros
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1791,31 +2049,60 @@ luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 /rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
+luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
+2.ttf
+Overfull \hbox (7.46393pt too wide) in paragraph at lines 11--12
+\EU2/Gentium(0)/m/n/10.95 tion of three sec-tions. These are ‘\EU2/Gentium(0)
+/m/it/10.95 Effort and Re-lax-ation\EU2/Gentium(0)/m/n/10.95 ,’ ‘\EU2/Genti
+um(0)/m/it/10.95 Kindness\EU2/Gentium(0)/m/n/10.95 ,’
+ []
+
+
+Overfull \hbox (11.64693pt too wide) in paragraph at lines 11--12
+\EU2/Gentium(0)/m/n/10.95 talks given at Wat Pah Nanachat In-ter-na-tional For-
+est Monastery,
+ []
+
+
+Overfull \hbox (2.78377pt too wide) in paragraph at lines 15--16
+[][]\EU2/Gentium(0)/m/n/10.95 Page [][]22[][]: the \EU2/Gentium(0)/m/it/10.95 s
+tūpa\EU2/Gentium(0)/m/n/10.95 , a mon-u-men-tal reli-quary, con-tains the reli
+cs
+ []
+
+[4{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 /rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
-Overfull \hbox (0.97137pt too wide) in paragraph at lines 19--22
+Overfull \hbox (5.08684pt too wide) in paragraph at lines 24--25
+[][]\EU2/Gentium(0)/m/sc/10.95 A󰀾󰀵󰀼󰁂 S󰁊󰁁󰀹󰀸󰀼󰁃 \EU2
+/Gentium(0)/m/n/10.95 was or-dained as a Ther-avādin \EU2/Gentium(0)/m/it/10.9
+5 bhikkhu \EU2/Gentium(0)/m/n/10.95 in Thai-
+ []
+
+
+Overfull \hbox (0.97137pt too wide) in paragraph at lines 26--27
 \EU2/Gentium(0)/m/n/10.95 1978 and took up train-ing un-der Ajahn Sumedho at th
 e Hamp-
  []
 
 
-Overfull \hbox (2.95934pt too wide) in paragraph at lines 19--22
+Overfull \hbox (2.95934pt too wide) in paragraph at lines 26--27
 \EU2/Gentium(0)/m/n/10.95 of monks, led by Ajahn Sumedho, who es-tab-lished Cit
 -ta-viveka,
  []
 
-) [4{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./src-tex/titlepage.tex
+) [5
+
+] [6
+
+] (./src-tex/titlepage.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
-/rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf) [5
-
-] (./src-tex/copyright.tex
+/rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf) [7] (
+./src-tex/copyright.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
@@ -1848,7 +2135,7 @@ emp-lmroman5-regular.lua)
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf) [6
+2.ttf) [8
 
 ] (./src-tex/acknowledgements.tex
 luaotfload | load font: auto-selecting default features for script: dflt (was l
@@ -1865,9 +2152,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
-) [7
+) [9
 
-] [8
+] [10
 
 ]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
@@ -1901,7 +2188,7 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
- [9])
+ [11])
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='italic' found: /home/
@@ -1910,12 +2197,12 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='italic' found: /home/
 rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Italic/ArnoPro-Italic.otf [
-10]
+12]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 /rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
-LaTeX Font Info:    Calculating math sizes for size <22> on input line 100.
+LaTeX Font Info:    Calculating math sizes for size <22> on input line 98.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
@@ -1930,33 +2217,33 @@ luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
 02.ttf
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <22> not available
-(Font)              size <20.74> substituted on input line 100.
+(Font)              size <20.74> substituted on input line 98.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 100.
+(Font)              size <14.4> substituted on input line 98.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 100.
+(Font)              size <20.74> substituted on input line 98.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 100.
+(Font)              size <14.4> substituted on input line 98.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <22> on input line 100.
+(Font)              <22> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <15.39993> on input line 100.
+(Font)              <15.39993> on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 100.
+(Font)              <11> on input line 98.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <22> not available
-(Font)              size <20.74> substituted on input line 100.
+(Font)              size <20.74> substituted on input line 98.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <15.39993> not available
-(Font)              size <14.4> substituted on input line 100.
+(Font)              size <14.4> substituted on input line 98.
 
 (./src-tex/introduction.tex
 Overfull \hbox (0.86801pt too wide) in paragraph at lines 4--5
@@ -1967,7 +2254,7 @@ Overfull \hbox (0.86801pt too wide) in paragraph at lines 4--5
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [11
+ [13
 
 ]
 Overfull \hbox (1.63795pt too wide) in paragraph at lines 6--7
@@ -1975,46 +2262,52 @@ Overfull \hbox (1.63795pt too wide) in paragraph at lines 6--7
 d been
  []
 
-) [12]
+) [14]
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
-2.ttf [13
+2.ttf [15
 
-] [14
+] [16
 
-] [15
+] [17
 
-] [16] (./src-tex/a-note-before-you-begin.tex
+] [18] (./src-tex/a-note-before-you-begin.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17
+ [19
 
 ])
-[18] [19
+[20] [21
 
-] [20] (./src-tex/what-is-meditation.tex
+]
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
+02.ttf [22] [23
+
+] [24] (./src-tex/what-is-meditation.tex
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [21
+ [25
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
+ [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
-Overfull \hbox (2.22375pt too wide) in paragraph at lines 22--23
+ [28]
+Overfull \hbox (2.22375pt too wide) in paragraph at lines 21--22
 \EU2/Gentium(1)/m/n/10.95 painful mis-eries: from Heaven to Hell, us-ing more p
 ic-turesque
  []
 
 
-Overfull \hbox (0.96103pt too wide) in paragraph at lines 22--23
+Overfull \hbox (0.96103pt too wide) in paragraph at lines 21--22
 \EU2/Gentium(1)/m/n/10.95 nent Heaven, in fact no per-ma-nent state that can be
  per-ceived
  []
@@ -2022,17 +2315,17 @@ Overfull \hbox (0.96103pt too wide) in paragraph at lines 22--23
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-Overfull \hbox (0.85417pt too wide) in paragraph at lines 26--27
+ [30]
+Overfull \hbox (0.85417pt too wide) in paragraph at lines 25--26
 \EU2/Gentium(1)/m/n/10.95 per-cep-tions con-di-tioned into the mind through pai
 n, through
  []
 
 
-Overfull \hbox (3.78407pt too wide) in paragraph at lines 26--27
+Overfull \hbox (3.78407pt too wide) in paragraph at lines 25--26
 \EU2/Gentium(1)/m/n/10.95 whether we have a male or fe-male body, at-trac-tive 
 or unattrac-
  []
@@ -2040,61 +2333,66 @@ or unattrac-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27]
+ [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28]
+ [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
-[31] [32
+ [34])
+[35] [36
 
-] [33] [34] (./src-tex/watching-the-breath.tex
-Overfull \hbox (8.80966pt too wide) in paragraph at lines 2--3
-[]\EU2/Gentium(0)/m/it/10.95 Ānāpā-nasati \EU2/Gentium(1)/m/n/10.95 is a way
- of con-cen-trat-ing your mind on your breath,
- []
+] [37
+
+] [38] (./src-tex/watching-the-breath.tex
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
+02.ttf
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 2.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='gentium', subfamily='italic' found: GenI10
+2.ttf
+Overfull \vbox (10.86693pt too high) has occurred while \output is active []
 
 
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
- [35
+[39
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36])
-[37] [38
+ [40])
+[41] [42
 
 ] (./src-tex/mantra-buddho.tex
+Overfull \vbox (5.86693pt too high) has occurred while \output is active []
+
+
+[43]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
+ [44]
 Overfull \hbox (1.8507pt too wide) in paragraph at lines 8--9
 \EU2/Gentium(1)/m/n/10.95 this prac-tice, you can learn where your weak-nesses 
 are, where
  []
 
-
+[45]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42])
-[43] [44
+ [46])
+[47] [48
 
 ] (./src-tex/effort-and-relaxation.tex
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [45]
-Overfull \hbox (1.74786pt too wide) in paragraph at lines 6--7
+ [49]
+Overfull \hbox (1.74786pt too wide) in paragraph at lines 7--8
 [][]\EU2/Gentium(1)/m/n/10.95 If you’re try-ing to get \EU2/Gentium(0)/m/it/1
 0.95 samādhi \EU2/Gentium(1)/m/n/10.95 (con-cen-tra-tion) from \EU2/Gentium(0)
 /m/it/10.95 ānāpā-
@@ -2103,11 +2401,11 @@ Overfull \hbox (1.74786pt too wide) in paragraph at lines 6--7
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [50]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [47]
-Overfull \hbox (4.0819pt too wide) in paragraph at lines 18--19
+ [51]
+Overfull \hbox (4.0819pt too wide) in paragraph at lines 19--20
 [][]\EU2/Gentium(1)/m/n/10.95 You’re not bat-tling with the forces of evil. I
 f you feel averse
  []
@@ -2115,25 +2413,26 @@ f you feel averse
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49]
-Overfull \hbox (1.07642pt too wide) in paragraph at lines 32--33
-\EU2/Gentium(1)/m/n/10.95 night, ’I’m go-ing to do \EU2/Gentium(0)/m/it/10.
+ [53]
+Overfull \hbox (1.07642pt too wide) in paragraph at lines 33--34
+\EU2/Gentium(1)/m/n/10.95 night, ‘I’m go-ing to do \EU2/Gentium(0)/m/it/10.
 95 ānāpā-nasati \EU2/Gentium(1)/m/n/10.95 from now un-til dawn.’ Then
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50])
-[51] [52
+ [54])
+[55] [56
 
 ] (./src-tex/walking-mindfully.tex
-Overfull \hbox (10.2996pt too wide) in paragraph at lines 2--3
+Overfull \hbox (14.55351pt too wide) in paragraph at lines 2--3
 []\EU2/Gentium(1)/m/n/10.95 Walk-ing ‘\EU2/Gentium(0)/m/it/10.95 Joṅgrom\EU
-2/Gentium(1)/m/n/10.95 ’ is a prac-tice of con-cen-trated walk-ing whereby
+2/Gentium(1)/m/n/10.95 ’[][] is a prac-tice of con-cen-trated walk-ing whereb
+y
  []
 
 
@@ -2143,21 +2442,22 @@ Overfull \hbox (6.27649pt too wide) in paragraph at lines 2--3
  []
 
 
+Overfull \vbox (10.86693pt too high) has occurred while \output is active []
+
+
+[57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54])
-[55] [56
+ [58])
+[59] [60
 
 ] (./src-tex/kindness.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
+ [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58]
+ [62]
 Overfull \hbox (0.99286pt too wide) in paragraph at lines 6--7
 [][]\EU2/Gentium(1)/m/n/10.95 If you’re be-ing very ide-al-is-tic, and you ha
 te some-one, then
@@ -2166,34 +2466,34 @@ te some-one, then
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [59]
+ [63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
+ [64]
 Overfull \hbox (4.00119pt too wide) in paragraph at lines 16--17
 \EU2/Gentium(1)/m/n/10.95 stop that kind of in-dul-gence by be-ing kind and pa-
 tient -- peace-
  []
 
-) [61] [62
+) [65] [66
 
 ] (./src-tex/mindfulness-of-the-ordinary.tex
 Underfull \vbox (badness 1062) has occurred while \output is active []
 
- [63]
+ [67]
 Overfull \hbox (5.99408pt too wide) in paragraph at lines 6--7
 \EU2/Gentium(1)/m/n/10.95 tious ob-jec-tors are of-ten asked this fa-mous ques-
-tion, ’You don’t
+tion, ‘You don’t
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [68]
+Overfull \vbox (10.60867pt too high) has occurred while \output is active []
 
- [65]
-[66] (./src-tex/listening-to-thought.tex
+
+[69]) [70] (./src-tex/listening-to-thought.tex
 Overfull \hbox (5.50967pt too wide) in paragraph at lines 4--5
 \EU2/Gentium(1)/m/n/10.95 ened of, think it out quite de-lib-er-ately, and lis-
 ten to your think-
@@ -2202,7 +2502,7 @@ ten to your think-
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [67
+ [71
 
 ]
 Overfull \hbox (0.67238pt too wide) in paragraph at lines 8--9
@@ -2213,22 +2513,22 @@ hings, but when
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
+ [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [73]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
+ [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71]
+ [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72])
-[73] [74
+ [76])
+[77] [78
 
-] (./src-tex/hindrances.tex [75]
+] (./src-tex/hindrances.tex [79]
 Overfull \hbox (1.9241pt too wide) in paragraph at lines 6--7
 \EU2/Gentium(1)/m/n/10.95 and see; not through con-dem-na-tion, but through un-
 der-stand-
@@ -2237,7 +2537,7 @@ der-stand-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [76]
+ [80]
 Overfull \hbox (3.39209pt too wide) in paragraph at lines 10--11
 [][]\EU2/Gentium(1)/m/n/10.95 The third hin-drance is sleepi-ness, lethargy, du
 ll-ness, sloth,
@@ -2246,29 +2546,30 @@ ll-ness, sloth,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79])
-[80] (./src-tex/emptiness-and-form.tex
-Underfull \vbox (badness 1163) has occurred while \output is active []
-
- [81
-
-]
+ [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83]
+ [83])
+[84] (./src-tex/emptiness-and-form.tex
+Underfull \vbox (badness 1163) has occurred while \output is active []
+
+ [85
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
-Overfull \hbox (5.00793pt too wide) in paragraph at lines 14--15
+ [86]
+Overfull \vbox (0.60867pt too high) has occurred while \output is active []
+
+
+[87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88]
+Overfull \hbox (5.00793pt too wide) in paragraph at lines 15--16
 \EU2/Gentium(1)/m/n/10.95 car-ried away, then stop. Cer-tainly don’t go round
  feel-ing guilty
  []
@@ -2276,8 +2577,8 @@ Overfull \hbox (5.00793pt too wide) in paragraph at lines 14--15
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85])
-[86] (./src-tex/inner-vigilance.tex
+ [89])
+[90] (./src-tex/inner-vigilance.tex
 Overfull \hbox (3.90646pt too wide) in paragraph at lines 2--3
 []\EU2/Gentium(1)/m/n/10.95 Now, as to the prac-tice of mind-ful-ness. Con-cen-
 tra-tion is where
@@ -2292,7 +2593,7 @@ s that you’ve
 
 Underfull \vbox (badness 1163) has occurred while \output is active []
 
- [87
+ [91
 
 ]
 Overfull \hbox (3.47305pt too wide) in paragraph at lines 6--7
@@ -2301,21 +2602,29 @@ nd-ing comes
  []
 
 
+Overfull \hbox (4.92099pt too wide) in paragraph at lines 6--7
+\EU2/Gentium(1)/m/n/10.95 thing, that in it-self is wrong in-ten-tion, isn’t 
+it? Think-ing you’re
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88]
+ [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89]
+ [93]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
+ [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91])
-[92] [93
+ [95])
+[96] [97
 
-] [94] (./src-tex/need-for-wisdom.tex [95
+] [98] [99
+
+] [100] (./src-tex/need-for-wisdom.tex [101
 
 ]
 Overfull \hbox (3.8922pt too wide) in paragraph at lines 6--7
@@ -2326,7 +2635,7 @@ Overfull \hbox (3.8922pt too wide) in paragraph at lines 6--7
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96]
+ [102]
 Overfull \hbox (4.7586pt too wide) in paragraph at lines 10--11
 \EU2/Gentium(1)/m/n/10.95 Nowa-days you find self-ish in-di-vid-u-als liv-ing t
 heir lives on their
@@ -2335,41 +2644,43 @@ heir lives on their
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [97]
+ [103]
 Overfull \hbox (1.73888pt too wide) in paragraph at lines 12--13
-[][]\EU2/Gentium(1)/m/n/10.95 In the prac-tice of.the Dhamma the sense of ’me
-’ and ’mine’
+[][]\EU2/Gentium(1)/m/n/10.95 In the prac-tice of.the Dhamma the sense of ‘me
+’ and ‘mine’
  []
 
 
+Overfull \vbox (10.60867pt too high) has occurred while \output is active []
+
+
+[104]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+ [105]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
+ [106]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100]
+ [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [101]
+ [108]
+Overfull \vbox (10.60867pt too high) has occurred while \output is active []
+
+
+[109]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [102]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [110])
+[111] [112
 
- [103])
-Underfull \vbox (badness 10000) has occurred while \output is active []
+] [113] [114
 
- [104]
-[105] [106
+] [115] [116
 
-] [107] [108
-
-] [109] [110
-
-] [111] [112
+] [117] [118
 
 ]
 (./src-tex/copyright-details.tex
@@ -2382,20 +2693,16 @@ atn)
 luaotfload | load font: font family='arnopro', subfamily='regular' found: /home
 /rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf
 luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)
-luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
-02.ttf
-luaotfload | load font: auto-selecting default features for script: dflt (was l
-atn)) [113] [114
+atn)) [119] [120
 
-] [115] [116]
+] [121] [122]
 No complaints by nag.
-\tf@toc=\write4
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+\tf@toc=\write5
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
 (./book_main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 235.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 235.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2407,15 +2714,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 
 Here is how much of LuaTeX's memory you used:
- 26800 strings out of 494987
- 100000,662416 words of node,token memory allocated
- 1576 words of node memory still in use:
+ 34799 strings out of 494987
+ 100000,794899 words of node,token memory allocated
+ 1583 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 89 glyph, 51 attribute, 136 glue_spec, 51 
 attribute_list, 4 write, 1 pdf_colorstack nodes
-   avail lists: 2:8661,3:291,4:1274,5:1022,6:4173,7:225,8:22,9:275,10:280
- 29146 multiletter control sequences out of 65536+200000
- 85 fonts using 9926003 bytes
- 61i,12n,40p,2478b,354s stack positions out of 5000i,500n,10000p,200000b,50000s
+   avail lists: 2:8836,3:294,4:1292,5:1022,6:4251,7:225,8:22,9:277,10:288
+ 36799 multiletter control sequences out of 65536+200000
+ 89 fonts using 10372763 bytes
+ 69i,12n,57p,2478b,370s stack positions out of 5000i,500n,10000p,200000b,50000s
 </home/rakuen/.fonts/licenced-for-harnham/ArnoPro/Arno Pro Italic/ArnoPro-Itali
 c.otf></home/rakuen/.fonts/Gentium102/GenR102.TTF></usr/local/texlive/2011/texm
 f-dist/fonts/opentype/public/lm/lmroman5-regular.otf></usr/local/texlive/2011/t
@@ -2424,10 +2731,10 @@ exmf-dist/fonts/opentype/public/lm/lmroman7-regular.otf></usr/local/texlive/201
 /texmf-dist/fonts/truetype/public/gentium/GenR102.ttf></home/rakuen/.fonts/lice
 nced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></usr/local/texlive/2011/
 texmf-dist/fonts/type1/public/ccicons/ccicons.pfb>
-Output written on book_main.pdf (116 pages, 249501 bytes).
+Output written on book_main.pdf (122 pages, 256717 bytes).
 
-PDF statistics: 670 PDF objects out of 1000 (max. 8388607)
- 524 compressed objects within 6 object streams
- 141 named destinations out of 1000 (max. 131072)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+PDF statistics: 702 PDF objects out of 1000 (max. 8388607)
+ 550 compressed objects within 6 object streams
+ 147 named destinations out of 1000 (max. 131072)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 

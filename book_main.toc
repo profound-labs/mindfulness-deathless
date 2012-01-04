@@ -1,19 +1,19 @@
-\contentsline {chapter}{Introduction}{11}{chapter*.1}
-\contentsline {chapter}{\chapternumberline {1}A Note Before You Begin}{17}{chapter.1}
-\contentsline {part}{\partnumberline {I}Investigation}{19}{part.1}
-\contentsline {chapter}{\chapternumberline {2}What is Meditation?}{21}{chapter.2}
-\contentsline {part}{\partnumberline {II}Instruction}{33}{part.2}
-\contentsline {chapter}{\chapternumberline {3}Watching the Breath}{35}{chapter.3}
-\contentsline {chapter}{\chapternumberline {4}The Mantra `Buddho'}{39}{chapter.4}
-\contentsline {chapter}{\chapternumberline {5}Effort and Relaxation}{45}{chapter.5}
-\contentsline {chapter}{\chapternumberline {6}Walking Mindfully}{53}{chapter.6}
-\contentsline {chapter}{\chapternumberline {7}Kindness}{57}{chapter.7}
-\contentsline {chapter}{\chapternumberline {8}Mindfulness of the Ordinary}{63}{chapter.8}
-\contentsline {chapter}{\chapternumberline {9}Listening to Thought}{67}{chapter.9}
-\contentsline {chapter}{\chapternumberline {10}The Hindrances and Their Cessation}{75}{chapter.10}
-\contentsline {chapter}{\chapternumberline {11}Emptiness and Form}{81}{chapter.11}
-\contentsline {chapter}{\chapternumberline {12}Inner Vigilange}{87}{chapter.12}
-\contentsline {part}{\partnumberline {III}Reflection}{93}{part.3}
-\contentsline {chapter}{\chapternumberline {13}The Need for Wisdom in the World}{95}{chapter.13}
-\contentsline {chapter}{Glossary}{109}{chapter*.7}
-\contentsline {chapter}{Index}{111}{chapter*.8}
+\contentsline {chapter}{Introduction}{13}{chapter*.1}
+\contentsline {chapter}{\chapternumberline {1}A Note Before You Begin}{19}{chapter.1}
+\contentsline {part}{\partnumberline {I}Investigation}{23}{part.1}
+\contentsline {chapter}{\chapternumberline {2}What is Meditation?}{25}{chapter.2}
+\contentsline {part}{\partnumberline {II}Instruction}{37}{part.2}
+\contentsline {chapter}{\chapternumberline {3}Watching the Breath}{39}{chapter.3}
+\contentsline {chapter}{\chapternumberline {4}The Mantra `Buddho'}{43}{chapter.4}
+\contentsline {chapter}{\chapternumberline {5}Effort and Relaxation}{49}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Walking Mindfully}{57}{chapter.6}
+\contentsline {chapter}{\chapternumberline {7}Kindness}{61}{chapter.7}
+\contentsline {chapter}{\chapternumberline {8}Mindfulness of the Ordinary}{67}{chapter.8}
+\contentsline {chapter}{\chapternumberline {9}Listening to Thought}{71}{chapter.9}
+\contentsline {chapter}{\chapternumberline {10}The Hindrances and Their Cessation}{79}{chapter.10}
+\contentsline {chapter}{\chapternumberline {11}Emptiness and Form}{85}{chapter.11}
+\contentsline {chapter}{\chapternumberline {12}Inner Vigilange}{91}{chapter.12}
+\contentsline {part}{\partnumberline {III}Reflection}{99}{part.3}
+\contentsline {chapter}{\chapternumberline {13}The Need for Wisdom in the World}{101}{chapter.13}
+\contentsline {chapter}{The Refuges and Precepts}{115}{chapter*.7}
+\contentsline {chapter}{Glossary}{117}{chapter*.8}

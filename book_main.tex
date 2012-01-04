@@ -90,8 +90,6 @@
 %% Introduction
 %% ----------------
 
-% TODO: lettrine!
-
 \chapterstyle{frontmatter}
 
 % \chapter{Preface}
@@ -143,10 +141,26 @@ quote quote.''
 \chapter{A Note Before You Begin}
 \input{./src-tex/a-note-before-you-begin.tex}
 
+\cleartoverso
+\thispagestyle{empty}
+\label{image-stupa}
+{\centering\par
+{\LARGE Stupa}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
+
 \part{Investigation}
 
 \chapter{What is Meditation?}
 \input{./src-tex/what-is-meditation.tex}
+
+\cleartoverso
+\thispagestyle{empty}
+\label{image-feet}
+{\centering\par
+{\LARGE Feet}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
 
 \part{Instruction}
 
@@ -180,6 +194,14 @@ quote quote.''
 \chapter{Inner Vigilange}
 \input{./src-tex/inner-vigilance.tex}
 
+\cleartoverso
+\thispagestyle{empty}
+\label{image-lotus-scene}
+{\centering\par
+{\LARGE Lotus scene}\\
+\tikz\draw (0,0) rectangle (90mm,120mm);
+\par}
+
 \part{Reflection}
 
 \chapter{The Need for Wisdom in the World}
@@ -195,9 +217,11 @@ quote quote.''
 
 \chapterstyle{backmatter}
 
+\chapter{The Refuges and Precepts}
+
 \chapter{Glossary}
 
-\chapter{Index}
+% \chapter{Index}
 
 %% Copyright details
 %% -----------------
