@@ -5,7 +5,7 @@
 %% ===========================
 
 \usepackage{nag}
-
+\usepackage{xparse}
 \usepackage{soul}
 \usepackage{textcomp}
 \usepackage[cmyk]{xcolor}
@@ -16,9 +16,6 @@
 \usepackage{ccicons}
 
 \usepackage{tikz}
-
-% for the picture environment:
-% \setlength{\unitlength}{1mm}
 
 %% =============
 %% Define colors
@@ -63,6 +60,8 @@
 % lettrineWords
 
 \newfontfamily\tocPageNumFont[Ligatures = TeX]{Gentium}
+
+% \addfontfeature{Kerning = Uppercase}
 
 %% ===========================================
 %% Set font sizes, indentation, etc.
@@ -144,10 +143,7 @@ outer=17mm
 %% Penalties
 %% =========
 
-% \usepackage[
-%   defaultlines = 4,
-%   all
-% ]{nowidow}
+\usepackage{nowidow}
 
 % \parfillskip 0pt plus 0.8\textwidth
 
@@ -169,7 +165,7 @@ outer=17mm
 %% =============
 
 \sodef\soTocChapter{}{.1em}{.5em plus.1em}{.1em plus.1em minus.1em}
-\sodef\soSection{}{.1em}{.5em plus.1em}{.1em plus.1em minus.1em}
+\sodef\soSection{}{.07em}{.4em plus.1em}{.1em plus.1em minus.1em}
 \sodef\soChapter{}{.1em}{.5em plus.1em}{.1em plus.1em minus.1em}
 \sodef\soDropcapsA{}{.1em}{.3em plus.1em}{.4em plus.1em minus.1em}
 \sodef\soDropcapsB{}{.1em}{.3em plus.1em}{.4em plus.1em minus.1em}
@@ -185,6 +181,18 @@ outer=17mm
 \newcommand\thesubtitle{\@thesubtitle}
 \newcommand\theEditionInfo{\@theEditionInfo}
 \newcommand\theISBN{\@theISBN}
+
+\newsavebox{\quotepagebox}
+\newenvironment{quotepage}[1]
+  {\begin{lrbox}{\quotepagebox}\begin{minipage}{#1}
+   \setlength{\parskip}{0.6\baselineskip}
+   \setlength{\parindent}{0pt}}
+  {\end{minipage}\end{lrbox}%
+   \clearpage\thispagestyle{empty}
+   \begin{tikzpicture}[remember picture,overlay]  
+   \node at (current page.center) {\usebox{\quotepagebox}};
+   \end{tikzpicture}
+   \clearpage}
 
 \newenvironment{packeditemize}%
 {\begin{itemize}%
@@ -284,6 +292,11 @@ outer=17mm
 \renewcommand{\cftsectiondotsep}{\cftnodots}
 \renewcommand{\cftsectionpresnum}[1]{}
 \setlength{\cftsectionnumwidth}{0pt}
+\renewcommand{\numberline}[1]{}
+
+\renewcommand{\cftsubsectiondotsep}{\cftnodots}
+\renewcommand{\cftsubsectionpresnum}[1]{}
+\setlength{\cftsubsectionnumwidth}{0pt}
 
 %% ====================
 %% Part and Book styles
@@ -309,7 +322,7 @@ outer=17mm
 %% Chapter styles
 %% ==============
 
-\setcounter{secnumdepth}{0}
+\setsecnumdepth{chapter}
 
 \makechapterstyle{mainmatter}{%
   \chapterstyle{default}
@@ -341,9 +354,15 @@ outer=17mm
 %% Section styles
 %% ==============
 
+\DeclareDocumentCommand\Section{oom}{
+\IfNoValueTF{#1}
+  {\section[#3]{\MakeUppercase{\soSection{#3}}}}
+  {\IfNoValueTF{#2}{\section[#1]{\MakeUppercase{\soSection{#3}}}}{\section[#1][#2]{\MakeUppercase{\soSection{#3}}}}}
+}
+
 \setlength{\beforesecskip}{3\baselineskip}
 
-\setsecheadstyle{\sectionFont\sectiontitlesize\color{chaptitle}\MakeUppercase}
+\setsecheadstyle{\sectionFont\sectiontitlesize\color{chaptitle}}
 \setsubsecheadstyle{\sectionFont\large\itshape\memRTLraggedright}
 \setsubsubsecheadstyle{\sectionFont\normalsize\itshape\memRTLraggedright}
 
