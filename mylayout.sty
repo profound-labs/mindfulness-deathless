@@ -4,6 +4,8 @@
 %% Packages to be loaded FIRST
 %% ===========================
 
+\usepackage[british]{babel}
+
 \usepackage{nag}
 \usepackage{xparse}
 \usepackage{soul}
@@ -114,7 +116,8 @@
 paperwidth=5.25in,
 paperheight=8in,
 textwidth=95mm,
-textheight=150mm,
+lines=27,
+%textheight=150mm,
 outer=17mm
 }
 \setlength{\stockwidth}{5.25in}
@@ -188,11 +191,10 @@ outer=17mm
    \setlength{\parskip}{0.6\baselineskip}
    \setlength{\parindent}{0pt}}
   {\end{minipage}\end{lrbox}%
-   \clearpage\thispagestyle{empty}
-   \begin{tikzpicture}[remember picture,overlay]  
+   \thispagestyle{empty}
+   \begin{tikzpicture}[remember picture,overlay]
    \node at (current page.center) {\usebox{\quotepagebox}};
-   \end{tikzpicture}
-   \clearpage}
+   \end{tikzpicture}}
 
 \newenvironment{packeditemize}%
 {\begin{itemize}%
@@ -310,6 +312,7 @@ outer=17mm
 
 \renewcommand*{\booktitlefont}{\chapNameFont\chaptitlesize\color{chaptitle}}
 \renewcommand*{\printbooktitle}[1]{\booktitlefont\MakeUppercase{\soChapter{#1}}}
+\renewcommand*{\afterbookskip}{\vfil}
 
 \renewcommand{\partnamefont}{\booktitlefont}
 \renewcommand{\partnumfont}{\booktitlefont}
@@ -360,7 +363,8 @@ outer=17mm
   {\IfNoValueTF{#2}{\section[#1]{\MakeUppercase{\soSection{#3}}}}{\section[#1][#2]{\MakeUppercase{\soSection{#3}}}}}
 }
 
-\setlength{\beforesecskip}{3\baselineskip}
+\setlength{\beforesecskip}{1.8\baselineskip}
+\setlength{\aftersecskip}{\baselineskip}
 
 \setsecheadstyle{\sectionFont\sectiontitlesize\color{chaptitle}}
 \setsubsecheadstyle{\sectionFont\large\itshape\memRTLraggedright}
@@ -372,8 +376,7 @@ outer=17mm
 
 \usepackage[perpage,multiple,stable]{footmisc}
 
-\usepackage{microtype}
-\microtypesetup{final}
+\usepackage[babel=true,final]{microtype}
 
 %% =================
 %% PDF/X-3:2002 info

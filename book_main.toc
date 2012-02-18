@@ -1,3 +1,4 @@
+\select@language {british}
 \contentsline {chapter}{Introduction}{13}{chapter*.1}
 \contentsline {chapter}{\chapternumberline {1}A Note Before You Begin}{17}{chapter.1}
 \contentsline {part}{\partnumberline {I}Investigation}{21}{part.1}
@@ -13,7 +14,7 @@
 \contentsline {chapter}{\chapternumberline {10}The Hindrances and Their Cessation}{77}{chapter.10}
 \contentsline {chapter}{\chapternumberline {11}Emptiness and Form}{83}{chapter.11}
 \contentsline {chapter}{\chapternumberline {12}Inner Vigilange}{89}{chapter.12}
-\contentsline {part}{\partnumberline {III}Reflection}{97}{part.3}
-\contentsline {chapter}{\chapternumberline {13}The Need for Wisdom in the World}{99}{chapter.13}
-\contentsline {chapter}{The Refuges and Precepts}{113}{chapter*.7}
-\contentsline {chapter}{Glossary}{115}{chapter*.8}
+\contentsline {part}{\partnumberline {III}Reflection}{95}{part.3}
+\contentsline {chapter}{\chapternumberline {13}The Need for Wisdom in the World}{97}{chapter.13}
+\contentsline {chapter}{The Refuges and Precepts}{109}{chapter*.7}
+\contentsline {chapter}{Glossary}{111}{chapter*.8}
