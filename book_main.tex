@@ -9,16 +9,17 @@
 \subtitle{The meditation teaching of Ajahn Sumedho}
 \author{Ajahn Sumedho}
 \date{}
-\editionInfo{\textit{Third edition}, 10,000 copies, printed in Thailand -- 2012}
+\editionInfo{\textit{Fourth edition}, 10,000 copies, printed in Malaysia -- \the\year}
 % Title comment: ...
 % Publisher name: ...
 % Printer name: ...
-\ISBN{123-4-5678901-2-3 FIXME!}
+\ISBN{978-1-870205-44-3}
 % Copyright text: ...
 
 %% Load further packages
 %% =====================
 
+\hyphenation{England London Ajahn Amaro Sumedho Sucitto Pasanno Amaravati expres-sion reli-gion under-took ordain ordained imme-di-ately illu-mi-nat-ing described}
 % \usepackage{lipsum}
 
 %% Hyphenation exceptions and corrections
@@ -36,15 +37,6 @@
 \frontmatter*
 \midsloppy
 
-%% About
-%% -----
-%% Short review or summary of the book, or comments by others.
-%% Brief bigraphy of the author, translator, editor, and their connection to the text.
-
-\cleartoverso
-\thispagestyle{empty}
-\input{./src-tex/about.tex}
-
 %% Title page
 %% ----------
 %% subtitle, editor, translator, preface by, introduction by, publisher
@@ -59,7 +51,7 @@
 
 \cleartoverso
 \thispagestyle{empty}
-\input{./src-tex/copyright.tex}
+\input{./src-tex/copyright-amaravati.tex}
 
 %% Acknowledgements
 %% ----------------
@@ -71,15 +63,6 @@
 \cleartorecto
 \thispagestyle{empty}
 \input{./src-tex/acknowledgements.tex}
-
-%% Dedication
-%% ----------
-
-% \cleartorecto
-% \thispagestyle{empty}
-% {\raggedleft\vspace*{5em}\par
-% To all who write summaries of \emph{imaginary} books
-% \par}
 
 %% Table of Contents
 %% -----------------
@@ -110,26 +93,10 @@
 \chapter{A Note Before You Begin}
 \input{./src-tex/a-note-before-you-begin.tex}
 
-\cleartoverso
-\thispagestyle{empty}
-\label{image-stupa}
-{\centering\par
-{\LARGE Stupa}\\
-\tikz\draw (0,0) rectangle (90mm,120mm);
-\par}
-
 \part{Investigation}
 
 \chapter{What is Meditation?}
 \input{./src-tex/what-is-meditation.tex}
-
-\cleartoverso
-\thispagestyle{empty}
-\label{image-feet}
-{\centering\par
-{\LARGE Feet}\\
-\tikz\draw (0,0) rectangle (90mm,120mm);
-\par}
 
 \part{Instruction}
 
@@ -160,16 +127,8 @@
 \chapter{Emptiness and Form}
 \input{./src-tex/emptiness-and-form.tex}
 
-\chapter{Inner Vigilange}
+\chapter{Inner Vigilance}
 \input{./src-tex/inner-vigilance.tex}
-
-\cleartoverso
-\thispagestyle{empty}
-\label{image-lotus-scene}
-{\centering\par
-{\LARGE Lotus scene}\\
-\tikz\draw (0,0) rectangle (90mm,120mm);
-\par}
 
 \part{Reflection}
 
@@ -180,24 +139,29 @@
 %% ==========
 %% Appendices, Glossary, Notes, Index...
 
-\backmatter
+%\backmatter
+%
+%\bookmarksetup{startatroot}
+%
+%\chapterstyle{backmatter}
 
-\bookmarksetup{startatroot}
+%% About
+%% -----
+%% Short review or summary of the book, or comments by others.
+%% Brief bigraphy of the author, translator, editor, and their connection to the text.
 
-\chapterstyle{backmatter}
+\emptysheet
 
-\chapter{The Refuges and Precepts}
-
-\chapter{Glossary}
-
-% \chapter{Index}
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/about.tex}
 
 %% Copyright details
 %% -----------------
 
 \cleartorecto
 \thispagestyle{plain}
-\input{./src-tex/copyright-details.tex}
+\input{./src-tex/copyright-details-amaravati.tex}
 
 \emptysheet
 
