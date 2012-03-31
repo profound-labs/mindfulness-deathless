@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  30 MAR 2012 21:54
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  31 MAR 2012 09:26
  restricted \write18 enabled.
 **book_main.tex
 (./book_main.tex
@@ -2101,12 +2101,12 @@ luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
 02.ttf
-LaTeX Font Info:    Try loading font information for EU2+cms on input line 34.
-LaTeX Font Info:    No file EU2cms.fd. on input line 34.
+LaTeX Font Info:    Try loading font information for EU2+cms on input line 38.
+LaTeX Font Info:    No file EU2cms.fd. on input line 38.
 
 
 LaTeX Font Warning: Font shape `EU2/cms/m/n' undefined
-(Font)              using `EU2/lmr/m/n' instead on input line 34.
+(Font)              using `EU2/lmr/m/n' instead on input line 38.
 
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
@@ -2126,11 +2126,11 @@ atn)
 luaotfload | load font: font family='gentium', subfamily='regular' found: GenR1
 02.ttf
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 34.
+(Font)              <9> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 38.
 luaotfload | load font: auto-selecting default features for script: dflt (was l
 atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
 emp-lmroman6-regular.lua)
@@ -2388,7 +2388,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of LuaTeX's memory you used:
  35186 strings out of 494987
  100000,794899 words of node,token memory allocated
- 1538 words of node memory still in use:
+ 1540 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 83 glyph, 48 attribute, 135 glue_spec, 48 
 attribute_list, 4 write, 1 pdf_colorstack nodes
    avail lists: 2:7967,3:308,4:1174,5:363,6:4021,7:341,8:21,9:273,10:309
@@ -2403,7 +2403,7 @@ ve/2011/texmf-dist/fonts/truetype/public/gentium/GenR102.ttf></home/hotaru/texl
 ive/2011/texmf-dist/fonts/truetype/public/gentium/GenI102.ttf></home/hotaru/.fo
 nts/licenced-for-harnham/ArnoPro/Arno Pro/ArnoPro-Regular.otf></home/hotaru/tex
 live/2011/texmf-dist/fonts/type1/public/ccicons/ccicons.pfb>
-Output written on book_main.pdf (108 pages, 247757 bytes).
+Output written on book_main.pdf (108 pages, 247927 bytes).
 
 PDF statistics: 627 PDF objects out of 1000 (max. 8388607)
  490 compressed objects within 5 object streams
